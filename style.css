@@ -1,0 +1,102 @@
+body {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    color: #fff;
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 15px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #555; /* New background color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+    background-color: #777; /* Hover background color */
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Links Styles */
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        padding: 15px;
+    }
+
+    header, nav, section, footer {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
